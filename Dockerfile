@@ -1,4 +1,4 @@
-FROM nginx
+FROM ebigdata/nginx:OFFICIAL-20170613
 MAINTAINER AndyWu "ebd@ebd.com"
 RUN mkdir -p /var/www/html
 ADD nginx/global.conf /etc/nginx/conf.d/nginx.conf
